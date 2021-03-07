@@ -1,0 +1,111 @@
+body {
+    height:100%;
+}
+
+.rightSideNavbar {
+    justify-content: flex-end;
+}
+.productPageMain {
+    background: #F5F5F5;
+}
+.landingPageMain {
+    background: url("./images/mainimage.jpeg") no-repeat center fixed;
+    background-color: #cccccc;
+    height:90vh;
+    overflow: scroll;
+    display:flex;
+    background-size:cover;
+}
+.landingPageBody > .actionBtnDiv > .goToOrderBtn {
+    background-color:red;
+    color:#d6d6d6;
+}
+.landingPageMain > .landingPageBody {
+    width:60%;
+    color: #d6d6d6;
+    text-align: center;
+    margin:auto;
+    background-color: grey;
+    padding: 25px;
+    background: rgba(0,0,0,0.5);
+}
+
+#disruptSpan {
+    color:red;
+}
+
+body > .navbarContainer {
+    height:10vh;
+    background-color: black !important;
+}
+
+.navbarContainer > .headerColor {
+    color:#d6d6d6 !important;
+}
+
+.rightSideNavbar > .navbar-text > .headerColor {
+    color:#d6d6d6 !important;
+}
+
+
+.checkoutItems {
+    height: 35vh;
+    margin:15px 0px 0px 0px;
+}
+
+#restaurantHeader {
+    word-break: break-word;
+}
+
+.lineItem {
+    display:flex;
+    justify-content: space-between;
+}
+.checkoutBar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkoutDiv > .checkoutBtn {
+    background-color:red;
+    color:white !important; 
+    border: transparent;
+    
+}
+
+.actionBtnDiv {
+    display: flex;
+    justify-content: center;
+}
+.productPageMain {
+    background-color:#e8e8e8ad;
+}
+.productTitle{
+   font-weight: bold;
+}
+.productPrice{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: .8em;
+ }
+.productImages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productWrapper{
+    height: 250px;
+    width: 250px;
+}
+.checkoutParent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.checkoutParentWrapper{
+    box-shadow: -10px 0px 10px 1px #aaaaaa63;
+
+}
+.foodRow { 
+    margin:15px 0px 0px 0px;
+}
